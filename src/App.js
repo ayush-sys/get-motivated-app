@@ -1,7 +1,7 @@
 import axios from 'axios';
 import React from 'react';
 import './App.css'
-
+import Date from './components/Date';
 
 class App extends React.Component{
 
@@ -28,7 +28,10 @@ class App extends React.Component{
     return ( 
       <div className='app'>
         <div className='content-card'> 
-          <h1 className='heading'>Hello Ayush!</h1>
+          <div className='heading'>
+            <h1>Hello Ayush!</h1>
+            <h5><Date /></h5>
+          </div>
             <h3>{quote}</h3>
         </div>
       </div>
