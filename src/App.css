@@ -33,7 +33,7 @@ h5{
 .content-card{
     background-color: whitesmoke;
     width: 40%;
-    height: 20%;
+    height: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -55,4 +55,40 @@ h5{
     margin: 10px 0px;
     align-items: center;
     height: 580px;
+}
+
+.btn-advice{
+    position: relative;
+    outline: none;
+    text-decoration: none;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    height: 200px;
+    width: 200px;
+    opacity: 1;
+    background-color: #ffffff;
+    border: 1px solid rgba(22, 76, 167, 0.6);
+}
+
+.btn-advice span {
+    color: #164ca7;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.7px;
+}
+
+.btn-advice:hover {
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.024),
+    0 100px 80px rgba(0, 0, 0, 0.10);
+}
+  
+@media only screen and (max-width: 600px) {
+    .advice-card {
+        width: 80%;
+        height: 30%;
+    }
 }
