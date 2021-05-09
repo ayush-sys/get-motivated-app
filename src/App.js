@@ -32,9 +32,7 @@ class App extends React.Component{
             <h1>Hello Ayush!</h1>
             <h5><Date /></h5>
           </div>
-
           <h3>{quote}</h3>
-
           <button className="btn-advice" onClick={this.fetchQuote}>
             <span>New Advice !</span>
           </button>
